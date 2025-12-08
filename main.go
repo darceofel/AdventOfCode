@@ -6,6 +6,7 @@ import (
 	"advent_of_code/solutions/day3"
 	"advent_of_code/solutions/day4"
 	"advent_of_code/solutions/day5"
+	"advent_of_code/solutions/day6"
 	"fmt"
 	"os"
 )
@@ -16,6 +17,7 @@ var solutions = map[string]func(string) (string, string){
 	"3": day3.Solution,
 	"4": day4.Solution,
 	"5": day5.Solution,
+	"6": day6.Solution,
 }
 
 func main() {
