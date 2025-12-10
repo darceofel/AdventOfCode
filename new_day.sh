@@ -28,6 +28,10 @@ package $pkg
 // Utils para el día $n
 EOF
 
+cat > "inputs/day$n.txt" <<EOF
+EOF
+
+
 echo "Creado: $dir/{Solution.go,Utils.go}"
 
 # 2. Insertar import en main.go
