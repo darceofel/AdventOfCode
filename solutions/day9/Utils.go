@@ -4,12 +4,6 @@ import (
 	"advent_of_code/utils"
 )
 
-var neighborOffsets = [8][]int{
-	{-1, -1}, {-1, 0}, {-1, 1},
-	{0, -1}, {0, 1},
-	{1, -1}, {1, 0}, {1, 1},
-}
-
 type Point struct {
 	X int
 	Y int
