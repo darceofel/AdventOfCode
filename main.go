@@ -1,6 +1,7 @@
 package main
 
 import (
+    "advent_of_code/solutions/day10"
 	"advent_of_code/solutions/day1"
 	"advent_of_code/solutions/day2"
 	"advent_of_code/solutions/day3"
@@ -15,6 +16,7 @@ import (
 )
 
 var solutions = map[string]func(string) (string, string){
+    "10": day10.Solution,
 	"9": day9.Solution,
 	"8": day8.Solution,
 	"7": day7.Solution,
